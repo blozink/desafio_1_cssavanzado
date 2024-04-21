@@ -1,0 +1,119 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+}
+
+.avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid #bec1bb;
+    margin-right: 10px;
+    margin-left: 30px;
+}
+
+.contenedor-principal {
+    display: flex;
+}
+
+.menu-contactos {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    width: 20%;
+}
+
+.contacto {
+    display: flex;
+    height: 9vh;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #e0e0e0;
+}
+
+.contacto:hover {
+    background-color: #cdc3e6;
+}
+
+.info-contacto {
+    display: flex;
+    align-items: center;
+}
+
+.info-contacto h3{
+    font-size: 15px;
+}
+
+
+.estado {
+    font-size: 10px;
+    color: #828485;
+}
+
+.iconos-contacto i {
+    margin: 10px;
+    color: #bec1bb;
+}
+
+.navi{
+    margin: 20px;
+    color: #bec1bb;
+}
+.boton-nuevo-chat {
+    display: flex;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #bec1bb;
+    text-decoration: none;
+    color: #a491d2;
+}
+
+.boton-nuevo-chat button {
+    border: none;
+    border-radius: 1px;
+    margin: 30px;
+    background-color: #a491d2;
+    width: 200px;
+    height: 40px;
+    color: #fff;
+}
+
+.boton-nuevo-chat button:hover {
+    background-color: #cdc3e6;
+}
+
+.contenido-principal {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #f8f8f8;
+
+}
+
+.bienvenida{
+    width: 50%;
+}
+.bienvenida h1 {
+    font-size: 45px;
+    color: #282D2E;
+}
+
+.bienvenida p {
+    font-size: 18px;
+    color: #282D2E;
+}
+
+.bienvenida img {
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+}
+
+.bienvenida img:hover {
+    background-color: #cdc3e6;
+}
